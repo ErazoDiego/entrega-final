@@ -1,0 +1,18 @@
+.bloque-1 {
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+
+    .bloque-1__lista {
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .bloque-1__texto {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .bloque-1__menu {
+        align-items: center;
+
+    }
+}

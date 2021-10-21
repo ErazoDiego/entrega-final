@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/23b464fd77.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srta-Panda Contacto</title>
+    <meta name="description"content="Formulario de contacto">
+    <meta name="keywords"content="Estetica, contacto, formulario, telefono">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/main.css">
+
+</head>
+<body>
+    <!--Contenedor Menu y Logo-->
+    <section class=" container-fluid">
+        <div class=" row">
+            <!--Menu y Logo-->
+            <nav class="bloque-1 navbar navbar-expand-lg navbar-light">
+                <div class="bloque-1__fila container-fluid  ">
+                    <!--Logo-->
+                    <a class=" bloque-1__imagen navbar-brand" href="#"><img data-aos="zoom-in" src="../imagenes/panda_logo.png"></a>
+                    <!--Boton Menu-->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--Menu Lista-->
+                    <div class="bloque-1__menu collapse navbar-collapse" id="navbarNav">
+                        <ul data-aos="zoom-in" class="bloque-1__lista navbar-nav align-items-center mt-sm-3">
+                            <li class="bloque-1__item nav-item">
+                                <a class="bloque-1__texto nav-link " aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="bloque-1__item nav-item">
+                                <a class="bloque-1__texto nav-link" href="../servicios/servicio.html">Servicios</a>
+                            </li>
+                            <li class="bloque-1__item nav-item">
+                                <a class="bloque-1__texto nav-link" href="../nosotros/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="bloque-1__item nav-item">
+                                <a class="bloque-1__texto nav-link " href="#">Contacto</a>                                    
+                            </li>
+                            <li class="bloque-1__item nav-item">
+                                <a class="bloque-1__texto nav-link" href="../info/info.html">Info</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+            </nav>
+        </div>
+    </section>
+    <div data-aos="zoom-in" data-aos-duration="3000" class="tit-cont">
+        <h1 class="tit-cont__texto">
+            Contactanos
+        </h1>
+    </div>
+    <div data-aos="fade-up" data-aos-duration="3000" class="container">
+        <div class=" row">
+            <div class="form col-md-10 shadow p-3 mb-5 bg-body rounded">
+                <form action="" method="GET">
+                    <fieldset class=" row g-3">
+                        <legend class="form__titulo "> Envienos tu Consulta</legend>
+                        <div class="col-md-4 ">
+                            <label for="info_name" class="form-label"> <h6 class="form__text">Nombre:</h6> </label>
+                            <input type="text" class="form-control" name="info_name" id="info_name"
+                            placeholder="Introduzca Nombre">
+                        </div>
+                        
+                        <div class="col-md-4 ">
+                            <label for="info_last_name" class="form-label"> <h6 class="form__text">Apellido:</h6> </label>
+                            <input type="text" class="form-control" name="info_name_last_name" id="info_last_name"
+                            placeholder="Introduzca Apellido">
+                        </div>
+
+                        <div class="col-md-4 ">
+                            <label for="info_mail" class="form-label"> <h6 class="form__text">Correo electronico:</h6> </label>
+                            <input type="text" class="form-control" name="info_mail" id="info_mail" 
+                            placeholder="Introduzca su Mail">
+                        </div>
+
+                        <div class="col-md-4 ">
+                            <label for="info_tel" class="form-label"> <h6 class="form__text">Telefono:</h6> </label>
+                            <input type="number" class="form-control" name="info_tel" id="info_tel" 
+                            placeholder="Introduzca su telefono">
+                        </div>
+
+                        <div class="col-md-4 ">
+                            <label for="info_gender" class="form-label"> <h6 class="form__text">Genero:</h6> </label>
+                            <div class="mb-3">
+                                <select class="form-select" required aria-label="select example">
+                                  <option value="">Seleccione una opcion</option>
+                                  <option value="1">Femenino</option>
+                                  <option value="2">Masculino</option>
+                                  <option value="3">Otro</option>
+                                </select>
+                                <div class="invalid-feedback">Example invalid select feedback</div>
+                              </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="validationTextarea" class="form-label"> <h6 class="form__text">Consulta:</h6> </label>
+                            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Ingrese su cansulta" required></textarea>
+                            <div class="invalid-feedback">
+                              Ingrese una consulta.
+                            </div>
+                        </div>
+
+                        <label for="info_promo" class="form-label"> <h6 class="form__text">Desea recibir promociones:</h6> </label>
+
+                        <div class="form-check ">
+                            <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+                            <label class="form-check-label" for="validationFormCheck2">Si</label>
+                          </div>
+                          <div class="form-check mb-3">
+                            <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+                            <label class="form-check-label" for="validationFormCheck3">No</label>
+                            <div class="invalid-feedback">More example invalid feedback text</div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <button class="btn btn-primary" type="submit" disabled>Enviar</button>
+                          </div>
+                        
+                        
+                    </fieldset>
+            
+                </form>
+
+                    
+
+               
+            </div>
+        </div>
+    </div>
+    <!--pie de pagina-->
+    <section class="footer container-fluid">
+        <div class="row">
+            <div class="footer__izquierda col-md-4">
+                <span class="footer__logo">
+                    <i class="fas fa-phone-square-alt"></i>
+                    <a class="footer__texto">011-43211234</a>
+                </span>
+                
+            </div>
+            <div class="footer__centro col-md-5">
+                <span class="footer__logo">
+                    <i class="far fa-envelope"></i>
+                    <a class="footer__texto">SrtaPanda@gmail.com</a>
+                </span>
+            </div>
+            <div class="footer__derecha col-md-3">
+                <ul class="footer__lista nav justify-content-center">
+                    <li class="footer__item nav-item">
+                        <span class="footer__logo">
+                            <i class="fab fa-facebook-square "></i>
+                        </span>
+                    </li>
+                    <li class="footer__item nav-item">
+                        <span class="footer__logo">
+                            <i class="fab fa-instagram "></i>
+                        </span>
+                    </li>
+                    <li class="footer__item nav-item">
+                        <span class="footer__logo">
+                            <i class="fab fa-twitter-square "></i>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+
+        
+
+
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

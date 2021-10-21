@@ -1,0 +1,29 @@
+/*pestaña nosotros*/
+.caja {
+    margin-top: 2rem;
+}
+
+.caja2 {
+    .caja2__titulo {
+        text-align: center;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        line-height: 1.6;
+    }
+}
+
+.equipo {
+    width: 100%;
+    padding: 1rem;
+
+
+    .equipo__nombre {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .equipo__foto {
+        border: solid #1FA2FF;
+    }
+
+}

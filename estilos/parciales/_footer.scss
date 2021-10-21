@@ -1,0 +1,23 @@
+.footer {
+    background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+
+    .footer__logo {
+        font-size: 2.5em;
+        color: black;
+        padding: 8px;
+        transition: all 0.5s;
+    }
+
+    .footer__logo:hover {
+        font-size: 3rem;
+        color: white;
+    }
+
+    .footer__texto {
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: black;
+    }
+
+
+}

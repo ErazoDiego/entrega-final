@@ -1,0 +1,31 @@
+.caja {
+    .caja__div {
+        text-align: center;
+    }
+
+    .caja__titulo {
+
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+
+}
+
+.caja-2 {
+    padding-top: 2rem;
+
+    .caja-2__titulo {
+        text-align: center;
+    }
+
+    .caja-2__boton {
+        text-transform: uppercase;
+        font-size: 1rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 4rem;
+
+    }
+
+}
