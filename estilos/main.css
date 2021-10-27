@@ -55,6 +55,12 @@
   font-weight: bold;
 }
 
+.bloque-1 .bloque-1__menu {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*body*/
 .bloque-2 {
   margin-top: 2rem;
@@ -107,15 +113,15 @@
 }
 
 .footer .footer__logo {
-  font-size: 2.5em;
+  font-size: 2rem;
   color: black;
   padding: 8px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  text-decoration: none;
 }
 
 .footer .footer__logo:hover {
-  font-size: 3rem;
   color: white;
 }
 
@@ -176,7 +182,7 @@
   border: solid #1FA2FF;
 }
 
-/*pestaña nosotros*/
+/*pestaña contacto*/
 /*pestaña contactos*/
 .form {
   margin-left: 3rem;
@@ -197,5 +203,17 @@
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+/*pestaña info*/
+.titulo-info {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.columna-2 .columna-2__boton {
+  margin-left: 2.5rem;
+  width: 80%;
 }
 /*# sourceMappingURL=main.css.map */

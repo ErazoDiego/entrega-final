@@ -2,16 +2,16 @@
     background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 
     .footer__logo {
-        font-size: 1.5rem;
-        color: white;
+        font-size: 2rem;
+        color: black;
         padding: 8px;
         transition: all 0.5s;
         text-decoration: none;
     }
 
     .footer__logo:hover {
-        font-size: 2rem;
-        color: black;
+
+        color: white;
     }
 
     .footer__texto {
