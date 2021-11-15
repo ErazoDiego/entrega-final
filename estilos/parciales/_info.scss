@@ -14,3 +14,37 @@
         width: 80%;
     }
 }
+
+.hubicacion {
+
+
+    .hubicacion__texto {
+        color: black;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .hubicacion__fila {
+
+        text-align: center;
+    }
+
+    .hubicacion__map {
+        overflow: hidden;
+        padding-bottom: 40%;
+        position: relative;
+        height: 0;
+    }
+
+    .hubicacion__map iframe {
+
+        left: 10%;
+        right: 10%;
+        top: 0;
+        height: 100%;
+        width: 80%;
+        position: absolute;
+    }
+
+
+}

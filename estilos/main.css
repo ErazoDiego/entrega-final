@@ -51,6 +51,7 @@
 }
 
 .bloque-1 .bloque-1__texto {
+  color: black;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -81,6 +82,10 @@
   margin-left: 4rem;
 }
 
+.bloque-2 .bloque-2__link {
+  text-decoration: none;
+}
+
 .caja .caja__div {
   text-align: center;
 }
@@ -104,6 +109,10 @@
   padding-left: 20px;
   padding-right: 20px;
   margin-left: 4rem;
+}
+
+.caja-2 .caja-2__link {
+  text-decoration: none;
 }
 
 /*footer*/
@@ -184,10 +193,6 @@
 
 /*pestaña contacto*/
 /*pestaña contactos*/
-.form {
-  margin-left: 3rem;
-}
-
 .form .form__titulo {
   text-align: center;
   text-transform: uppercase;
@@ -215,5 +220,31 @@
 .columna-2 .columna-2__boton {
   margin-left: 2.5rem;
   width: 80%;
+}
+
+.hubicacion .hubicacion__texto {
+  color: black;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.hubicacion .hubicacion__fila {
+  text-align: center;
+}
+
+.hubicacion .hubicacion__map {
+  overflow: hidden;
+  padding-bottom: 40%;
+  position: relative;
+  height: 0;
+}
+
+.hubicacion .hubicacion__map iframe {
+  left: 10%;
+  right: 10%;
+  top: 0;
+  height: 100%;
+  width: 80%;
+  position: absolute;
 }
 /*# sourceMappingURL=main.css.map */
